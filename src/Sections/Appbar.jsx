@@ -6,7 +6,7 @@ export default function Appbar() {
     <>
       <AppBar
         position="static"
-        sx={{ backgroundColor: "secondary.main", px: "5rem" }}
+        sx={{ backgroundColor: "secondary.main", px: "5rem", py: "0.5rem" }}
       >
         <Toolbar>
           <Typography variant="h6" component="div" color="primary.main">

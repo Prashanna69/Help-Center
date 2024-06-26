@@ -1,10 +1,16 @@
 import { Box } from "@mui/material";
-import RootLayout from "./Layout/RootLayout";
+import Appbar from "./Sections/Appbar";
+import SearchSection from "./Sections/SearchSection";
+import Footers from "./Sections/Footer";
+import Description from "./Sections/Description";
 
 function App() {
   return (
-    <Box>
-      <RootLayout />
+    <Box minHeight="100vh" display="flex" flexDirection="column">
+      <Appbar />
+      <SearchSection />
+      <Description />
+      <Footers />
     </Box>
   );
 }
