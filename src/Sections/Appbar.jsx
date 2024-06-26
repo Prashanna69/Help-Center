@@ -1,5 +1,6 @@
 import { AppBar, Box, Button, Toolbar, Typography } from "@mui/material";
 import React from "react";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 export default function Appbar() {
   return (
@@ -9,6 +10,13 @@ export default function Appbar() {
         sx={{ backgroundColor: "secondary.main", px: "5rem", py: "0.5rem" }}
       >
         <Toolbar>
+          <AutoAwesomeIcon
+            sx={{
+              display: { xs: "none", md: "flex" },
+              mr: 1,
+              color: "primary.main",
+            }}
+          />
           <Typography variant="h6" component="div" color="primary.main">
             Prashanna
           </Typography>
