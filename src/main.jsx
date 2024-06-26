@@ -6,6 +6,7 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
+import "./app.css";
 
 const theme = createTheme({
   palette: {
@@ -13,7 +14,7 @@ const theme = createTheme({
       main: "#fff",
     },
     secondary: {
-      main: "000000",
+      main: "#000000",
     },
     button: {
       main: "#4C5FD5",
