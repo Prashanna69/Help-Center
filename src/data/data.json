@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "Branches",
+      "icon": "",
+      "description": "Abstract Branched lets you manage, version, and document your designs in one place.",
+      "link": "#"
+    },
+    {
+      "id": "2",
+      "name": "Manage your account",
+      "icon": "",
+      "description": "Configure your account settings, such as your email, profile details, and password.",
+      "link": "#"
+    },
+    {
+      "id": "3",
+      "name": "Manage organizations, teams, and projects",
+      "icon": "",
+      "description": "User Abstract oragnizations, teams and projects to organize tou people and your work.",
+      "link": "#"
+    },
+    {
+      "id": "5",
+      "name": "Authenticate to Abstract",
+      "icon": "",
+      "description": "Set up and configure SSO, SCIM, and Just-in-Time procisioning.",
+      "link": "#"
+    },
+    {
+      "id": "6",
+      "name": "Abstract support",
+      "icon": "",
+      "description": "Get in touch with a human.",
+      "link": "#"
+    }
+  ]
+}
